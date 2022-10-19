@@ -1,0 +1,47 @@
+.boxTitle{
+    text-align: center;
+    background-color: #ffcc01;
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.boxSchool,.school,.schoolImage-d{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.boxSchool-u,.boxSchool-d{
+    font-size: 20px;
+    padding: 80px;
+}
+
+.schoolImage{
+    position: relative;
+    left: 80px;
+}
+
+.schoolImage img{
+    width: 150px;
+}
+
+.image-1 img, .image-2 img{
+    width: 250px;
+}
+
+.image-2 img{
+    position: relative;
+    top: -40px;
+}
+.boxSchool-d{
+    background-color: #ebebeb;
+}
+
+.date{
+    color: #707070;
+}
