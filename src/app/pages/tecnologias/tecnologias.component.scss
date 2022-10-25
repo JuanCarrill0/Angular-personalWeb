@@ -1,0 +1,41 @@
+.boxTitle-lenguajes, .boxTitle-tecnologias{
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+}
+.boxTitle-lenguajes{
+    background-color: #252525;
+}
+
+.boxTitle-tecnologias{
+    background-color: #ffcc01;
+}
+
+.title{
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.boxTitle-tecnologias .title{
+    color: black;
+}
+
+.lenguaje,.tecnologia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.boxLenguajes,.boxTecnologias{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.boxLenguajes, .boxTecnologias{
+    height: 180px;
+    padding: 30px;
+}
+.imageLenguaje img, .imageTecnologia img{
+    width: 150px;
+}
+
