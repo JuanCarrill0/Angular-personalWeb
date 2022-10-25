@@ -39,3 +39,34 @@
     width: 150px;
 }
 
+/*Responsive Design*/
+
+@media (max-width: 1000px) {
+    .imageLenguaje img, .imageTecnologia img{
+        margin: 10px;
+        width: 120%;
+    }
+    .infoLenguaje,.infoTecnologia{
+        position: relative;
+        left: 30px;
+    }
+  }
+
+
+@media (max-width: 640px) {
+    .main{
+        border: solid 1px red;
+    }
+    .imageLenguaje img, .imageTecnologia img{
+        width: 90%;
+    }
+    .boxLenguajes,.boxTecnologias{
+        grid-template-columns: 1fr 1fr;
+    }
+    .boxLenguajes,.boxTecnologias{
+        margin-bottom: 50px;
+    }
+    .boxTitle-lenguajes, .boxTitle-tecnologias{
+        width: 450px;
+    }
+  }
