@@ -47,3 +47,22 @@
 .name,.job{
     text-align: center;
 }
+
+/*Responsive Design*/
+
+@media (max-width: 1000px) {
+    .headerBox{
+        grid-template-columns: 40% 60%;
+    }
+  }
+
+
+  @media (max-width: 640px) {
+    .headerBox{
+        grid-template-columns: 1fr;
+    }
+    .profileImage img{
+        position: relative;
+        left: 20%;
+    }
+  }

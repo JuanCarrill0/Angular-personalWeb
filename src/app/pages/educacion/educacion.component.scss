@@ -49,3 +49,37 @@
 .date{
     color: #707070;
 }
+
+/*Responsive Design*/
+
+@media (max-width: 1000px) {
+    .main{
+        margin-bottom: 500px;
+    }
+    .boxSchool{
+        grid-template-columns: 1fr;
+    }
+  }
+
+
+@media (max-width: 640px) {
+
+    .boxSchool-u,.boxSchool-d{
+        border: 1px solid red;
+        padding: 0px;
+    }
+    .school{
+        grid-template-columns: 1fr;
+        border: 1px solid red;
+    }
+    .schoolInfo{
+        margin: 0 auto;
+    }
+    .schoolImage{
+        position: relative;
+        left: 35%;
+    }
+    .main{
+        margin-bottom: 450px;
+    }
+  }

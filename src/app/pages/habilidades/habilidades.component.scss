@@ -57,3 +57,30 @@
     height: 30px;
     margin: 0 auto;
 }
+
+/*Responsive Design*/
+
+@media (max-width: 800px) {
+    .boxHabilidadesProfesionales,.boxHabilidadesPersonales{
+        grid-template-columns: 1fr;
+        border: solid 1px red;
+    }
+    .imgPersonales img,.imgProfesionales img{
+        left: 20%;
+        width: 60%;
+        
+    }
+  }
+
+
+@media (max-width: 640px) {
+    .imgPersonales img,.imgProfesionales img{
+        border: solid 1px red;
+        left: 40px;
+        width: 80%;
+        
+    }
+    .titleBox-Profesionales,.titleBox-Personales{
+        width: 450px;
+    }
+  }

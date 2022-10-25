@@ -44,3 +44,26 @@
     width: 100%;
     height: 100px;
 }
+
+/*Responsive Design*/
+
+@media (max-width: 1000px) {
+    .imgReference img{
+        width: 100%;
+    }
+  }
+
+
+  @media (max-width: 640px) {
+    .main{
+        margin-bottom: 70%;
+    }
+    .content-box{
+        grid-template-columns: 1fr;
+    }
+    .imgReference img{
+        width: 80%;
+        position: relative;
+        left: 10%;
+    }
+  }
