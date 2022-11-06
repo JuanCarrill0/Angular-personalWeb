@@ -39,6 +39,18 @@
     width: 150px;
 }
 
+.lenguaje:hover{    
+    .imageLenguaje img{
+        width: 170px;
+    }
+}
+
+.tecnologia:hover{
+    .imageTecnologia img{
+        width: 170px;
+    }
+}
+
 /*Responsive Design*/
 
 @media (max-width: 1000px) {
