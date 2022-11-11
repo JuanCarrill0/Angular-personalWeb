@@ -55,6 +55,7 @@ a{
 /*Responsive Design*/
 
 @media (max-width: 1000px) {
+    
     .headerBox{
         grid-template-columns: 40% 60%;
     }
@@ -62,11 +63,34 @@ a{
 
 
   @media (max-width: 640px) {
+    .main{
+        width: 90%;
+    }
+    .menu{
+        font-size: 18px;
+    }
+
     .headerBox{
         grid-template-columns: 1fr;
     }
     .profileImage img{
         position: relative;
-        left: 20%;
+        left: 10%;
+        width: 80%;
     }
+
+    .menu ul{
+        right: 5%;
+        font-size: 15px;
+    }
+    
+    .job{
+        font-size: 25px;
+    }
+
+    .name{
+        font-size: 28px;
+    }
+
+    
   }

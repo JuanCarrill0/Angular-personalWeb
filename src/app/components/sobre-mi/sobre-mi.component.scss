@@ -56,7 +56,8 @@
 
   @media (max-width: 640px) {
     .main{
-        margin-bottom: 70%;
+        margin-bottom: 40%;
+        width: 90%;
     }
     .content-box{
         grid-template-columns: 1fr;
@@ -65,5 +66,22 @@
         width: 80%;
         position: relative;
         left: 10%;
+    }
+    .aboutMe-Text{
+        padding: 15px;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .text{
+        font-size: 15px;
+    }
+    .aboutMe{
+        z-index: 1;
+        margin: 0;
+        top: -50px;
+        width: 250px;
+        height: 60px;
+
     }
   }
