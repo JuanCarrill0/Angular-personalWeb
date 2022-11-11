@@ -63,7 +63,6 @@
 @media (max-width: 800px) {
     .boxHabilidadesProfesionales,.boxHabilidadesPersonales{
         grid-template-columns: 1fr;
-        border: solid 1px red;
     }
     .imgPersonales img,.imgProfesionales img{
         left: 20%;
