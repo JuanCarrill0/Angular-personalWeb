@@ -5,6 +5,7 @@ import { SobreMiComponent } from './sobre-mi/sobre-mi.component';
 import { EducacionComponent } from './educacion/educacion.component';
 import { TecnologiasComponent } from './tecnologias/tecnologias.component';
 import { HabilidadesComponent } from './habilidades/habilidades.component';
+import { ProyectosComponent } from './proyectos/proyectos.component';
 
 
 
@@ -14,7 +15,8 @@ import { HabilidadesComponent } from './habilidades/habilidades.component';
     SobreMiComponent,
     EducacionComponent,
     TecnologiasComponent,
-    HabilidadesComponent
+    HabilidadesComponent,
+    ProyectosComponent
   ],
   imports: [
     CommonModule
