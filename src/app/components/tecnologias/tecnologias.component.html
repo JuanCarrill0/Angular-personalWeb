@@ -39,7 +39,7 @@
     <div class="boxTitle-tecnologias">
         <h3 class="title">Tecnologías y Frameworks</h3>
     </div>
-    <div class="boxTecnologias">
+    <div class="boxTecnologias box1" *ngIf="visibleBox1">
         <div class="tecnologia" data-aos="zoom-in-up">
             <div class="imageTecnologia" >
                 <img src="assets/Angular.png" alt="">
@@ -71,6 +71,46 @@
             <div class="infoTecnologia">
                 <h4 class="titleTecnologia">Photoshop</h4>
             </div>
+        </div>
+        <div class="flechaDer" type="button" (click)="showBox()" data-aos="zoom-in-up">
+            <img src="assets/Flecha.png" alt="">
+        </div>
+    </div>
+    <div class="boxTecnologias box2" *ngIf="visibleBox2">
+        <div class="tecnologia" data-aos="zoom-in-up">
+            <div class="imageTecnologia imageSql">
+                <img src="assets/MySQL.png" alt="">
+            </div>
+            <div class="infoTecnologia">
+                <h4 class="titleTecnologia">MySql</h4>
+            </div>
+        </div>
+        <div class="tecnologia" data-aos="zoom-in-up">
+            <div class="imageTecnologia">
+                <img src="assets/PostgreSQL.png" alt="">
+            </div>
+            <div class="infoTecnologia">
+                <h4 class="titleTecnologia">PostgreSQL</h4>
+            </div>
+        </div>
+        <div class="tecnologia" data-aos="zoom-in-up">
+            <div class="imageTecnologia">
+                <img src="assets/WordPress.png" alt="">
+            </div>
+            <div class="infoTecnologia">
+                <h4 class="titleTecnologia">WordPress</h4>
+            </div>
+        </div>
+        <div class="tecnologia" data-aos="zoom-in-up">
+            <div class="imageTecnologia">
+                <img src="assets/Boostrap.png" alt="">
+            </div>
+            <div class="infoTecnologia">
+                <h4 class="titleTecnologia">Boostrap</h4>
+            </div>
+        </div>
+        <div class="flechaDer" type="button" (click)="showBox()" data-aos="zoom-in-up">
+            <img src="assets/Flecha.png" alt="">
         </div>
     </div>
 </div>
