@@ -6,6 +6,8 @@ import { EducacionComponent } from './educacion/educacion.component';
 import { TecnologiasComponent } from './tecnologias/tecnologias.component';
 import { HabilidadesComponent } from './habilidades/habilidades.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
+import { ContactameComponent } from './contactame/contactame.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -16,10 +18,12 @@ import { ProyectosComponent } from './proyectos/proyectos.component';
     EducacionComponent,
     TecnologiasComponent,
     HabilidadesComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    ContactameComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule,
   ],
   exports: [
     HeaderComponent,

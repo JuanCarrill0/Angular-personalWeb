@@ -6,14 +6,14 @@ import * as AOS from 'aos';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  visibleMain: boolean =true;
-  visibleProjects: boolean=false;
+
+  componenteActivo:number = 0;
 
 
-  showProjects() {
-    this.visibleMain = this.visibleMain?false:true;
-    this.visibleProjects = this.visibleProjects?false:true;
+  showComponents(indice:number) {
+    this.componenteActivo = indice;
   }
+
 
   constructor() { }
 

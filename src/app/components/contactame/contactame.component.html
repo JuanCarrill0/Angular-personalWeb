@@ -1,0 +1,8 @@
+<p>Funcionando</p>
+
+<form (ngSubmit)="sendEmail()">
+    <input type="text" [(ngModel)]="correo.to" placeholder="Para">
+    <input type="text" [(ngModel)]="correo.subject" placeholder="Asunto">
+    <textarea [(ngModel)]="correo.message" placeholder="Mensaje"></textarea>
+    <button type="submit">Enviar</button>
+  </form>

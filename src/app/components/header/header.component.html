@@ -6,9 +6,9 @@
         <div class="headerContent">
             <nav class="menu">
                 <ul>
-                    <li> <a href="http://localhost:4200/header">Sobre Mí</a></li>
-                    <li type="button" (click)="showProjects()">Proyectos</li>
-                    <li>Contáctame</li>
+                    <li type="button" (click)="showComponents(0)">Sobre Mí</li>
+                    <li type="button" (click)="showComponents(1)">Proyectos</li>
+                    <li type="button" (click)="showComponents(2)">Contáctame</li>
                 </ul>
             </nav>
             <div class="info" data-aos="fade-right"  >
@@ -21,9 +21,10 @@
         </div>
     </div>
 </header>
-<proyectos *ngIf="visibleProjects"></proyectos>
-<sobre-mi *ngIf="visibleMain"></sobre-mi>
-<educacion *ngIf="visibleMain"></educacion>
-<tecnologias *ngIf="visibleMain"></tecnologias>
-<habilidades *ngIf="visibleMain"></habilidades>
+<proyectos *ngIf="componenteActivo == 1"></proyectos>
+<contacto *ngIf="componenteActivo == 2"></contacto>
+<sobre-mi *ngIf="componenteActivo == 0"></sobre-mi>
+<educacion *ngIf="componenteActivo == 0"></educacion>
+<tecnologias *ngIf="componenteActivo == 0"></tecnologias>
+<habilidades *ngIf="componenteActivo == 0"></habilidades>
 

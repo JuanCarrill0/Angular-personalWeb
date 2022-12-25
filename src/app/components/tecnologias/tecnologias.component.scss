@@ -47,10 +47,6 @@
     grid-template-columns: 23% 23% 23% 23% 3%;
 }
 
-.imageSql img{
-    width: 300px;
-}
-
 .flechaIzq, .flechaDer{
     position: relative;
     top: 25%;
@@ -71,15 +67,12 @@
     width: 130px;
 }
 
-.imageSql img{
-    width: 250px;
-}
-
 
 .lenguaje:hover{    
     .imageLenguaje img{
         width: 170px;
     }
+
 }
 
 .tecnologia:hover{

@@ -20,7 +20,7 @@
     position: relative;
     top: -30px;
     display: grid;
-    grid-template-columns: 3% 47% 47% 2%;
+    grid-template-columns: 3% 49% 45% 1%;
 }
 
 .infoProject{
@@ -30,6 +30,14 @@
     width: 500px;
     height: 400px;
     
+}
+
+.imageProject{
+    position: relative;
+    top: 10%;
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
 }
 .imageProject img{
     width: 100%;
